@@ -26,7 +26,6 @@ NewMovies allows users to explore trending movies, view movie details, add favor
 - **Browse Movies**: View the latest and most popular movies in a sleek and interactive layout.
 - **Movie Details**: Get detailed information about each movie including release date, ratings, overview, and production companies.
 - **Watchlist**: Add movies to your personal watchlist for future viewing.
-- **Favorites**: Mark movies as favorites and keep them easily accessible.
 - **User Authentication**: Secure sign-in and sign-up using Firebase Authentication.
 - **Responsive Design**: The app is fully responsive, ensuring it works seamlessly on all devices, from mobile phones to desktop screens.
 - **Interactive UI**: Smooth UI components from DaisyUI and custom-tailored Tailwind CSS styles.
