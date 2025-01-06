@@ -108,7 +108,7 @@ const Signin = () => {
         {/* Password Input */}
         <div className="flex flex-col gap-2">
           <label className="text-2xl text-yellow-300">Password</label>
-          <div style={{ position: "relative", display: "inline-block" }}>
+          <div className="flex w-full gap-3">
             <input
               type={showPassword ? "text" : "password"}
               {...register("password", {
@@ -121,19 +121,7 @@ const Signin = () => {
               placeholder="Enter your password"
               className="p-3 text-lg "
             />
-            <button
-              type="button"
-              onClick={togglePasswordVisibility}
-              style={{
-                position: "absolute",
-                right: "10px",
-                top: "50%",
-                transform: "translateY(-50%)",
-                background: "transparent",
-                border: "none",
-                cursor: "pointer",
-              }}
-            >
+            <button type="button" onClick={togglePasswordVisibility}>
               {showPassword ? "Hide" : "Show"}
             </button>
           </div>

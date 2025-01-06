@@ -50,7 +50,7 @@ const SearchComponent = () => {
           placeholder="Search for a movie..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="p-2 border rounded-lg my-5 w-1/2 text-white"
+          className="p-2 border rounded-lg my-5 w-3/4 text-white md:w-1/2"
         />
       </div>
 

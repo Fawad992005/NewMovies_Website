@@ -72,7 +72,7 @@ const Directory = () => {
       <div>
         {selectedMovie && (
           <div
-            className="absolute top-6 left-0 w-100% flex items-center justify-center md:top-28 md:left-28 md:w-2/5"
+            className="absolute top-6 left-0 w-100% flex items-center justify-center md:top-28 md:left-28 md:w-2/5 bg-gray-900 bg-opacity-25 py-5 rounded-lg mx-1"
             onClick={() => setSelectedMovie(null)} // Remove selected movie on click
           >
             <div className="text-white text-center flex flex-col gap-3">
@@ -92,7 +92,7 @@ const Directory = () => {
                 {selectedMovie.overview.split(" ").slice(0, 30).join(" ")}...
               </p>
               <div className="flex justify-center items-center gap-14">
-                <button className="py-2 border rounded-lg px-5">
+                <button className="py-2 border rounded-lg px-5 bg-yellow-300 text-black border-black ">
                   Watch Trailer
                 </button>
                 <button className="p-2 border border-black rounded-lg px-5 bg-yellow-300 text-black">
@@ -160,7 +160,7 @@ const Directory = () => {
           }
              @media (max-width: 768px) {
                  .swiper {
-                    bottom: -20px; 
+                    bottom: -34px; 
                     }
         `}
       </style>
